@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
 
-const dashboard = () => {
+const Dashboard = () => {
   return (
     <>
       <Helmet titleTemplate="Dashboard" />
@@ -10,4 +10,4 @@ const dashboard = () => {
   );
 };
 
-export default dashboard;
+export default Dashboard;
