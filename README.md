@@ -93,3 +93,17 @@ Feito por [Julio Silvestre](https://github.com/juliocsilvestre)
 
 📝 Licença
 Esse projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+## atualizar develop - main
+
+# Vá para a branch develop
+
+git checkout develop
+
+# Atualize a branch local com os dados mais recentes do repositório remoto
+
+git fetch origin
+
+# Faça o merge da main na develop
+
+git merge origin/main
